@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brew & Bite – Coffee That Speaks</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg-parallax"></div>
+    <div class="hero-content">
+      <h1>Where Every Sip Tells a Story <span class="coffee-icon">☕</span></h1>
+      <div class="steam-animation">
+        <span class="steam"></span>
+        <span class="steam"></span>
+        <span class="steam"></span>
+      </div>
+      <div class="hero-cta">
+        <a href="#menu" class="btn primary">View Menu</a>
+        <a href="#order" class="btn secondary">Order Now</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ABOUT US -->
+  <section class="aboutus" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Brew & Bite</h2>
+        <p>
+          At Brew & Bite, we believe coffee is not just a drink — it’s an experience shared with warmth and aroma.
+        </p>
+        <a href="#more" class="learn-more">Learn More <i class="fa fa-arrow-right"></i></a>
+      </div>
+      <div class="about-img">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/023/513/862/small_2x/hot-coffee-cup-with-coffee-beans-wallpaper-coffee-photo.jpg" alt="Barista pouring latte">
+      </div>
+    </div>
+  </section>
+  
+  <!-- MENU HIGHLIGHTS -->
+  <section class="menu-highlights" id="menu">
+    <h2>Menu Highlights</h2>
+    <div class="menu-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="coffee">Coffee</button>
+      <button class="filter-btn" data-filter="desserts">Desserts</button>
+      <button class="filter-btn" data-filter="snacks">Snacks</button>
+    </div>
+    <div class="menu-grid">
+      <!-- Example menu cards (add/adjust as needed) -->
+      <div class="menu-card" data-category="coffee">
+        <img src="https://images.ctfassets.net/v601h1fyjgba/3bxPeyxH6YlWxBUlPuCgPE/9ac292d4d71ac65d6ec53ee51f3534ab/Mocha_Hazelnut_Latte.jpg" alt="Hazelnut Latte">
+        <h3>Hazelnut Latte</h3>
+        <p>Creamy espresso with hazelnut notes</p>
+        <span class="price">₹170</span>
+      </div>
+      <div class="menu-card" data-category="coffee">
+        <img src="https://dairyfarmersofcanada.ca/sites/default/files/image_file_browser/conso_recipe/2022/Capuccino.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Foamy, strong, and classic</p>
+        <span class="price">₹150</span>
+      </div>
+      <div class="menu-card" data-category="desserts">
+        <img src="https://www.simplyrecipes.com/thmb/PBW3FqeGmzDJkZT7PXTRGa4H3oU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-21-7de4673191d542039f47927fde4fee82.jpg" alt="Tiramisu Slice">
+        <h3>Tiramisu Slice</h3>
+        <p>Rich, creamy, espresso-soaked</p>
+        <span class="price">₹120</span>
+      </div>
+      <div class="menu-card" data-category="desserts">
+        <img src="https://www.barleyandsage.com/wp-content/uploads/2022/03/hazelnut-brownies-1200x1200-1.jpg" alt="Hazelnut Brownie">
+        <h3>Hazelnut Brownie</h3>
+        <p>Warm chocolate with nuts</p>
+        <span class="price">₹90</span>
+      </div>
+      <div class="menu-card" data-category="snacks">
+        <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/marinated_mozzarella_13358_16x9.jpg" alt="Focaccia Sandwich">
+        <h3>Focaccia Sandwich</h3>
+        <p>Roasted veggies on herb bread</p>
+        <span class="price">₹110</span>
+      </div>
+      <div class="menu-card" data-category="snacks">
+        <img src="https://sugargeekshow.com/wp-content/uploads/2022/11/croissants_featured.jpg" alt="Croissant">
+        <h3>Butter Croissant</h3>
+        <p>Flaky, buttery, Parisian style</p>
+        <span class="price">₹80</span>
+      </div>
+      <div class="menu-card" data-category="coffee">
+        <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F9eada0d203bfb580d801b478edd553465c7afb52" alt="Cold Brew">
+        <h3>Cold Brew</h3>
+        <p>Slow-steeped, chilled perfection</p>
+        <span class="price">₹160</span>
+      </div>
+      <div class="menu-card" data-category="desserts">
+        <img src="https://www.allrecipes.com/thmb/IsIVofRRaO-P0Iv_3sUaSNkwWE8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Easy-Classic-Cheesecake2-2814f4f9999943688d54f103a13919b8.jpg" alt="Cheesecake">
+        <h3>Classic Cheesecake</h3>
+        <p>Creamy, smooth, NYC style</p>
+        <span class="price">₹140</span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- SPECIAL OFFERS -->
+  <section class="special-offers" id="offers">
+    <h2>Today’s Picks</h2>
+    <div class="offers-container">
+      <div class="offer-card glow">
+        <h3>Happy Hours</h3>
+        <p>4 PM – 6 PM only</p>
+        <span>Flat 20% OFF ☕</span>
+        <div class="timer" id="offer-timer"></div>
+      </div>
+      <div class="offer-card">
+        <h3>Dessert Deal</h3>
+        <p>Add a dessert at just ₹60 <br>with any coffee!</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <h2>Our Café Moments</h2>
+    <div class="gallery-grid">
+      <div class="gallery-img" data-title="Lovable Coffee">
+        <img src="https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/66181abf2dbc25ec0de5b763_nathan-dumlao-gOn7dKcCWKg-unsplash.jpg" alt="Lovable Coffee">
+        <span class="overlay-text">Lovable Coffee</span>
+      </div>
+      <div class="gallery-img" data-title="Outdoor Space">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6U7bwN5O4u4J1EMOHE-Q3ImZiBQKVVF_WQ&s" alt="Outdoor">
+        <span class="overlay-text">Outdoor Space</span>
+      </div>
+      <div class="gallery-img" data-title="Latte Art">
+        <img src="https://media.timeout.com/images/105526401/image.jpg" alt="Latte Art">
+        <span class="overlay-text">Latte Art</span>
+      </div>
+      <div class="gallery-img" data-title="Cozy Corners">
+        <img src="https://images.stockcake.com/public/f/1/7/f17e6ea8-97b4-44a1-b30b-29c35fc38cd3_large/cozy-caf-corner-stockcake.jpg" alt="Cozy Corner">
+        <span class="overlay-text">Cozy Corners</span>
+      </div>
+      <div class="gallery-img" data-title="Baristas at Work">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9q4wxi-YMdPFtMJaU6oWwz3W681OrnYo-Vw&s" alt="Barista">
+        <span class="overlay-text">Baristas at Work</span>
+      </div>
+      <div class="gallery-img" data-title="Evening Glow">
+        <img src="https://media.istockphoto.com/id/472034449/photo/typical-french-caf%C3%A8-in-paris-illuminated-on-a-winter-night.jpg?s=612x612&w=0&k=20&c=iROq83Pvc-Rc1hC0mDWqPqbTPYzUVBAVIt96kLj78Cs=" alt="Evening Café">
+        <span class="overlay-text">Evening Glow</span>
+      </div>
+      <div class="gallery-img" data-title="Snack evenings">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGaHNRJr0MtsyJrnPMxpAM1ymakGH4FlxJdw&s" alt="Snack evenings">
+        <span class="overlay-text">Snack evenings</span>
+      </div>
+      <div class="gallery-img" data-title="Baked Treats">
+        <img src="https://www.shutterstock.com/image-photo/closeup-variety-freshly-baked-pastries-600nw-2599222087.jpg" alt="Baked Goods">
+        <span class="overlay-text">Baked Treats</span>
+      </div>
+      <div class="gallery-img" data-title="Celebration Times">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=400&q=80" alt="Celebrations">
+        <span class="overlay-text">Celebration Times</span>
+      </div>
+    </div>
+    <!-- Only visible on mobile: Gallery carousel arrows and indicator -->
+    <div class="gallery-carousel-controls">
+      <button id="gallery-prev"><i class="fa fa-chevron-left"></i></button>
+      <span id="gallery-indicator"></span>
+      <button id="gallery-next"><i class="fa fa-chevron-right"></i></button>
+    </div>
+  </section>
+  
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Guests Say</h2>
+    <div class="testimonial-carousel">
+      <div class="testimonial-item active">
+        <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="Aarav R." class="profile-photo">
+        <div class="testimonial-content">
+          <h4>Aarav R.</h4>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p>The best cappuccino I’ve ever had. Cozy interiors and super friendly staff!</p>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <img src="https://randomuser.me/api/portraits/women/21.jpg" alt="Simran T." class="profile-photo">
+        <div class="testimonial-content">
+          <h4>Simran T.</h4>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-alt"></i>
+          </div>
+          <p>I love the hazelnut latte and the peaceful vibe. Will be back soon!</p>
+        </div>
+      </div>
+      <div class="testimonial-item">
+        <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Rahul K." class="profile-photo">
+        <div class="testimonial-content">
+          <h4>Rahul K.</h4>
+          <div class="stars">
+            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+          </div>
+          <p>Great snacks and perfect ambiance for remote work. Highly recommended!</p>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-controls">
+      <button id="testimonial-prev"><i class="fa fa-chevron-left"></i></button>
+      <button id="testimonial-next"><i class="fa fa-chevron-right"></i></button>
+    </div>
+  </section>
+  
+  <!-- CONTACT & LOCATION -->
+  <section class="contact-location" id="contact">
+    <h2>Contact & Location</h2>
+    <div class="contact-container">
+      <div class="contact-details">
+        <p><i class="fa fa-map-marker-alt"></i> 123 Coffee Lane, Bengaluru, IN</p>
+        <p><i class="fa fa-clock"></i> Mon–Sun: 8:00 AM – 10:00 PM</p>
+        <p><i class="fa fa-phone"></i> +91 98765 43210</p>
+        <div class="contact-socials">
+          <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="contact-map">
+        <!-- Replace src with your Google Maps embed link if desired -->
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Map Location" class="stylized-map">
+      </div>
+      <form class="contact-form" id="contact-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" rows="3" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <img src="https://img.icons8.com/ios-glyphs/30/3E2723/coffee.png" alt="Brew & Bite Logo" class="footer-logo">
+      <span>Brew & Bite Café</span>
+    </div>
+    <div class="footer-mid">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#offers">Offers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-right">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <div class="footer-copyright">
+      © 2025 Brew & Bite Café | Crafted with <span style="color:#3E2723;">☕</span> and <span style="color:#FFD180;">❤</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
